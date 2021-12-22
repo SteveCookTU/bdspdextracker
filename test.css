@@ -1,0 +1,44 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pokediv {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+}
+
+[complete="true"] {
+    background-color: #38ff0b;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.dexGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.imageBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    flex: 1 1 auto;
+    height: 100%;
+}

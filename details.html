@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="./test.css">
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy"
+          content="default-src 'self'; script-src 'self'">
+    <title>Test</title>
+</head>
+<body >
+<div class="imageBody">
+    <button id="addImage">Set Image</button>
+    <img id="img" src="" alt="N/A" />
+    <button id="return">Back</button>
+</div>
+<script src="detailsRenderer.js"></script>
+</body>
+</html>
