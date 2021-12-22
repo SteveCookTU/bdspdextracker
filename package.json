@@ -1,6 +1,6 @@
 {
   "name": "bdspdextracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tracker for shiny living dex in Pokemon BD/SP",
   "main": "index.js",
   "scripts": {
